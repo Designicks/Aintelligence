@@ -1,0 +1,93 @@
+@media (max-width: 1040px) {
+    ul.navbar-nav li {
+        padding: 0 0.4rem!important;
+    }
+    .navbar-brand {
+        width: 154px !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .menu_container {
+        display: block !important;
+        padding-right: 1.5rem;
+    }
+    li.nav-item:last-child {
+        margin-bottom: 2rem;
+    }
+    ul.navbar-nav li {
+        display: inline-block;
+        justify-content: center;
+    }
+    .dropdown-menu {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Banner {
+        padding-top: 65px;
+    }
+    #Banner .banner_inner {
+        height: 260px;
+        padding-left: 0rem;
+    }
+    #OurGoal {
+        padding: 0.5rem 0;
+    }
+    #OurGoal h2.ourGoalHead{
+        margin-top: 0rem; 
+    }
+    #FeaturedContainer3 .container-xl .row>div:first-child {
+        order: 2;
+    }
+    #FeaturedContainer3 .container-xl .row>div:last-child {
+        order: 1;
+    }
+    .featured_left .featured_desc .featured_keypoint {
+        margin-bottom: 0.5rem;
+    }
+    .featured_left.featuredweb_left {
+        padding: 0;
+    }
+    #joinUs .joinus_head .btn_cover {
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    #Banner .header_right_imgcover img {
+        width: 100% !important;
+        position: relative !important;
+        max-width: 700px !important;
+        right: 0px !important;
+        top: 15px !important;
+    }
+    #footer {
+        padding: 2rem 0 1rem 0 !important;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    #Banner .banner_inner {
+        height: 225px;
+        padding-left: 0rem;
+    }
+    .featured_left .featured_title {
+        padding: 0rem 0;
+    }
+    #joinUs {
+        padding: 2.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 477px) {
+    .headingh3 {
+        font-size: 28px;
+    }
+    #footer {
+        padding: 3rem 0 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {}
